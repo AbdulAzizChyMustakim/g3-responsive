@@ -1,6 +1,93 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 .font {
   font-family: "Work Sans";
 }
+/* navbar */
+
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+   
+}
+nav{
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav h3{
+    font-size: 45px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+.menu{
+    display: flex;
+    gap: 30px;
+}
+.menu-item{
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* banner start */
+.banner{
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+
+}
+.banner-txt h1{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+.banner-txt p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 20px;
+}
+.banner-txt button{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    padding: 20px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    background: rgb(255, 144, 14);
+    margin-bottom: 20px;
+}
+
+.banner-img img{
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+/* banner end */
+
+
+/* Responsive */
+@media screen and (max-width: 576px) {
+    nav {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
